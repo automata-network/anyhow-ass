@@ -107,7 +107,7 @@ fn main() {
     if rustc < 81 {
         // core::error::Error
         // https://blog.rust-lang.org/2024/09/05/Rust-1.81.0.html#coreerrorerror
-        println!("cargo:rustc-cfg=anyhow_no_core_error");
+        // println!("cargo:rustc-cfg=anyhow_no_core_error");
     }
 }
 

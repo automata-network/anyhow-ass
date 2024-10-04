@@ -236,6 +236,7 @@
     clippy::wildcard_imports,
     clippy::wrong_self_convention
 )]
+#![feature(error_in_core)]
 
 #[cfg(all(
     anyhow_nightly_testing,
